@@ -1,0 +1,57 @@
+{ 
+  "profile": {
+    "skills" : [
+      {
+      "sTitle": "JAVA",
+      "summaries" :[
+        "Good knowledge of OOPs concept like Abstraction, Encapsulation, Polymorphism, Inheritance.",
+        "Good knowledge of String, singleton design pattern.",
+        "Good in Exception Handling.",
+        "Good understanding of File handling IO and Serialization."
+      ]
+    },
+    {
+      "sTitle": "JDBC",
+      "summaries" :[
+      "Good Architectural understanding of JDBC and Loose coupling.",
+      "Implemented all type of statements like Statement, Prepared Statement and Callable Statements.",
+      "Implemented JDBC transaction.",
+        "Used configuration files and implemented best practices.",
+      "Written Stored Procedures and executed into callable statements."
+      ]
+    },
+    {
+      "sTitle": "SQL",
+      "summaries" :[
+        "Good understanding of RDBMS concepts.",
+        "Comfortable in writing SQL statements like DDL, DML, DQL etc.",
+        "Implemented joins and subqueries."
+      ]
+    },
+
+    {
+      "sTitle": "J2EE",
+      "summaries" :[
+        "Good understanding of servlets and server side programmings.", 
+      " Good understanding of JSP.", 
+        "Good understanding of cookies and sessions.",  
+        "Depth understanding of Servlet and JSP life cycle"
+      ]
+    }       
+    ],
+    "interest":"Apart from being a developer, I spend a large amount of my free time exploring the latest technology advancements in the Artificial Intelligence and Machine Learning. I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef.",
+    "about": {
+      "objective" : "To enhance my technical skills and to become a beneficial resource for the development of the company as well as my improvement and complete my desired goals.",
+      "first_name": "amit",
+      "last_name" : "dhakad",
+      "email" : "dhakad.amit@outlook.com",
+      "mobile": "+917389612519",
+      "address": "Btm 1st Stage Bangalore.",
+      "oca": "Oracle Certified Associate, Java SE 7 Programmer",
+      "github": "https://github.com/amit-dhakad",
+      "linkedin": "https://www.linkedin.com/in/amit-dhakad-29642389"
+    }
+  }
+
+
+}

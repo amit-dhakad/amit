@@ -1,0 +1,42 @@
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-3">{{tittle}}</h2>
+
+          <div class="subheading mb-3">{{subTittle1}}</div>
+         
+          <ul class="list-inline list-icons">
+            <!--java-->
+            <li class="list-inline-item">
+                    <i class="devicon-java-plain-wordmark colored"></i>
+            </li>
+            <!--mysql-->
+            <li class="list-inline-item">
+              <i class="devicon-mysql-plain-wordmark colored"></i>
+            </li>
+           <!--oracle-->
+            <li class="list-inline-item">
+                <i class="devicon-oracle-original colored"></i>
+              </li>
+
+              <!--window-->
+            <li class="list-inline-item">
+                <i class="devicon-windows8-original colored"></i>
+              </li>
+
+              <!--linux-->
+            <li class="list-inline-item">
+                <i class="devicon-linux-plain colored"></i>
+              </li>
+          </ul>
+          <div class="subheading mb-3">{{subTittle2}}</div>
+         
+          <ul class="fa-ul mb-0">
+            <li *ngFor="let skill of skills">   
+                <i class=" fa fa-cog fa-spin"></i>
+                 {{skill.sTitle}}
+                <ol *ngFor="let item of skill.summaries"> {{item}}</ol>
+            </li>
+          </ul>
+        </div>
+      </section>
